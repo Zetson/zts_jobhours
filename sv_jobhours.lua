@@ -1,5 +1,5 @@
-local Tunnel = module("zts", "lib/Tunnel")
-local Proxy = module("zts", "lib/Proxy")
+local Tunnel = module("vrp", "lib/Tunnel")
+local Proxy = module("vrp", "lib/Proxy")
 
 vRP = Proxy.getInterface("vRP")
 vRPclient = Tunnel.getInterface("vRP","zts_jobhours")
